@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: green;
+}
+.container{
+    background-color: whitesmoke;
+    padding: 3rem 2rem;
+    width: 50%;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem black;
+}
+.search{
+    display: flex;
+    justify-content:space-between;
+}
+.search input{
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 2px solid green;
+    outline: none;
+    width: 70%;
+    background-color: whitesmoke;
+}
+.btn{
+    padding: 10px 25px;
+    background-color: green;
+    border-radius: 5rem;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    transition: .4s;
+}
+.btn:hover{
+    background: transparent;
+    color: green;
+    border: 2px solid green;
+}
+#bag{
+   margin: 1rem auto;
+   text-align: center;
+}
+.cardo{
+    margin: 1rem;
+}
+.met{
+    font-weight: bold;
+}
+#content img{
+    width: 250px;
+    height:200px;
+}
+.pen{
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width:1024px){
+    .container{
+        width: 70%;
+    }
+}
+@media only screen and (max-width:600px){
+    .container{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:412px){
+    .container{
+        width: 95%;
+    }
+    .search input{
+        width: 60%;
+    }
+}
